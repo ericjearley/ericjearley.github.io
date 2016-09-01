@@ -6,8 +6,8 @@ document.getElementById('header').innerHTML =
 '	<nav id="nav">' +
 '		<ul>' +
 '			<li id="index"><a href="index.html">Home</a></li>' +
-'			<li id="about"><a href="about.html">About Me</a></li>' +
-'			<li id="publications"><a href="publications.html">Publications</a>' +
+'			<li id="about"><a href="">About Me</a></li>' +
+'			<li id="publications"><a href="">Publications</a>' +
 '				<ul>' +
 '					<li><a href="#">2014</a>' +
 '						<ul>' +
@@ -22,8 +22,8 @@ document.getElementById('header').innerHTML =
 '					</li>' +
 '				</ul>' +
 '			</li>' +
-'			<li id="outreach"><a href="outreach.html">Outreach</a></li>' +
-'			<li id="sciencecommunication"><a href="sciencecommunication.html">Science Communication</a></li>' +
+'			<li id="outreach"><a href="">Outreach</a></li>' +
+'			<li id="sciencecommunication"><a href="">Science Communication</a></li>' +
 '		</ul>' +
 '	</nav>' +
 '</div>';
