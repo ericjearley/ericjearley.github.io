@@ -1,23 +1,23 @@
 document.getElementById('header').innerHTML =
 '<div class="inner">' +
 '	<!-- Logo -->' +
-'	<h1><a href="index.html" id="logo">Eric J. Earley</a></h1>' +
+'	<h1><a href="http://www.ericjearley.com/index.html" id="logo">Eric J. Earley</a></h1>' +
 '	<!-- Nav -->' +
 '	<nav id="nav">' +
 '		<ul>' +
-'			<li id="index"><a href="index.html">Home</a></li>' +
-'			<li id="about"><a href="about.html">About Me</a></li>' +
-'			<li id="publications"><a href="">Publications</a>' +
+'			<li id="index"><a href="http://www.ericjearley.com/index.html">Home</a></li>' +
+'			<li id="about"><a href="http://www.ericjearley.com/about.html">About Me</a></li>' +
+'			<li id="publications"><a href="http://www.ericjearley.com/publications.html">Publications</a>' +
 '				<ul>' +
 '					<li><a href="#">2014</a>' +
 '						<ul>' +
-'							<li><a href="#">EMBC</a></li>' +
+'							<li><a href="http://www.ericjearley.com/publications/EMBC2014.html">EMBC</a></li>' +
 '						</ul>' +
 '					</li>' +
 '					<li><a href="#">2016</a>' +
 '						<ul>' +
-'							<li><a href="#">Frontiers in Neuroscience</a></li>' +
-'							<li><a href="#">BioRob</a></li>' +
+'							<li><a href="http://www.ericjearley.com/publications/Frontiers2016.html">Frontiers in Neuroscience</a></li>' +
+'							<li><a href="http://www.ericjearley.com/publications/BioRob2016.html">BioRob</a></li>' +
 '						</ul>' +
 '					</li>' +
 '				</ul>' +

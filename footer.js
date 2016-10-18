@@ -6,8 +6,8 @@ document.getElementById('footer-wrapper').innerHTML =
 '			<section>' +
 '				<h2>For Professionals</h2>' +
 '				<ul class="divided">' +
-'					<li><a href="#">Curriculum Vitae</a></li>' +
-'					<li><a href="#">Publications</a></li>' +
+'					<li><a href="http://www.ericjearley.com/about/virtualCV.html">Curriculum Vitae</a></li>' +
+'					<li><a href="http://www.ericjearley.com/publications.html">Publications</a></li>' +
 '					<li><a href="#">Outreach and Teaching</a></li>' +
 '				</ul>' +
 '			</section>' +
@@ -17,7 +17,7 @@ document.getElementById('footer-wrapper').innerHTML =
 '			<section>' +
 '				<h2>For Unprofessionals</h2>' +
 '				<ul class="divided">' +
-'					<li><a href="#">About Me</a></li>' +
+'					<li><a href="http://www.ericjearley.com/about.html">About Me</a></li>' +
 '					<li><a href="#">Science Communication</a></li>' +
 '					<li><a href="#">Blog</a></li>' +
 '				</ul>' +
