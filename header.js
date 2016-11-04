@@ -22,8 +22,8 @@ document.getElementById('header').innerHTML =
 '					</li>' +
 '				</ul>' +
 '			</li>' +
-'			<li id="outreach"><a href="">Outreach</a></li>' +
-'			<li id="sciencecommunication"><a href="">Science Communication</a></li>' +
+'			<li id="outreach"><a href="http://www.ericjearley.com/outreach.html">Outreach</a></li>' +
+'			<li id="sciencecommunication"><a href="http://www.ericjearley.com/sciencecommunincation.html">Science Communication</a></li>' +
 '		</ul>' +
 '	</nav>' +
 '</div>';
