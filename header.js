@@ -23,7 +23,7 @@ document.getElementById('header').innerHTML =
 '				</ul>' +
 '			</li>' +
 '			<li id="outreach"><a href="http://www.ericjearley.com/outreach.html">Outreach</a></li>' +
-'			<li id="sciencecommunication"><a href="http://www.ericjearley.com/sciencecommunincation.html">Science Communication</a></li>' +
+'			<li id="sciencecommunication"><a href="http://www.ericjearley.com/sciencecommunication.html">Science Communication</a></li>' +
 '		</ul>' +
 '	</nav>' +
 '</div>';
