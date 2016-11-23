@@ -18,7 +18,7 @@ document.getElementById('footer-wrapper').innerHTML =
 '				<h2>For Unprofessionals</h2>' +
 '				<ul class="divided">' +
 '					<li><a href="http://www.ericjearley.com/about.html">About Me</a></li>' +
-'					<li><a href="http://www.ericjearley.com/sciencecommunincation.html">Science Communication</a></li>' +
+'					<li><a href="http://www.ericjearley.com/sciencecommunication.html">Science Communication</a></li>' +
 '					<li><a href="#">Blog</a></li>' +
 '				</ul>' +
 '			</section>' +
