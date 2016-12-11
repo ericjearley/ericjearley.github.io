@@ -19,7 +19,7 @@ document.getElementById('footer-wrapper').innerHTML =
 '				<ul class="divided">' +
 '					<li><a href="http://www.ericjearley.com/about.html">About Me</a></li>' +
 '					<li><a href="http://www.ericjearley.com/sciencecommunication.html">Science Communication</a></li>' +
-'					<li><a href="#">Blog</a></li>' +
+//Placeholder for blog'					<li><a href="#">Blog</a></li>' +
 '				</ul>' +
 '			</section>' +
 '		</div>' +
