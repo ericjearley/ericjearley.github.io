@@ -72,9 +72,10 @@ document.getElementById('footer-wrapper').innerHTML =
 '	<div class="row">' +
 '		<div class="12u">' +
 '			<div id="copyright">' +
-'				<ul class="menu">' +
-'					<li>&copy Eric J. Earley. All rights reserved</li><li>Template: <a href="https://html5up.net/zerofour">ZeroFour</a> by <a href="https://twitter.com/ajlkn">AJ</a></li><li>Source: <a href="https://html5up.net">HTML5 UP</a></li>' +
-'				</ul>' +
+'				&copy Eric J. Earley. All rights reserved'
+//'				<ul class="menu">' +
+//'					<li>&copy Eric J. Earley. All rights reserved</li><li>Template: <a href="https://html5up.net/zerofour">ZeroFour</a> by <a href="https://twitter.com/ajlkn">AJ</a></li><li>Source: <a href="https://html5up.net">HTML5 UP</a></li>' +
+//'				</ul>' +
 '			</div>' +
 '		</div>' +
 '	</div>' +
