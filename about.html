@@ -1,139 +1,544 @@
-<!DOCTYPE HTML>
-<!--
-	ZeroFour by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>About Me | Eric J. Earley</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<title>About Me | Eric J. Earley</title>
 	</head>
-	<body class="left-sidebar">
-		<div id="page-wrapper">
-
-			<!-- Header Wrapper -->
-				<div id="header-wrapper">
-					<div class="container">
-
-						<!-- Header -->
-							<header id="header">
-							</header>
-
+	
+	<body>
+		<div id="header">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a id="navbar-text" class="navbar-brand" href="index.html">Eric J. Earley</a>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarcontents" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon fa-bars fa-lg"></span>
+						</button>
+					</div>
+				
+					<div class="collapse navbar-collapse" id="navbarcontents">
+						<ul class="nav navbar-nav navbar-right">
+							<li id="navbar-text"><a href="index.html">Home<span class="sr-only">(current</span></a>
+							</li>
+							<li id="navbar-text" class="active"><a href="#">About</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-haspopup="true" aria-expanded="false">For Professionals<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li id="navbar-text"><a href="research.html">Research Projects</a></li>
+									<li id="navbar-text"><a href="publications.html">Publications</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-haspopup="true" aria-expanded="false">For Unprofessionals<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li id="navbar-text"><a href="writing.html">Science Writing</a></li>
+									<li id="navbar-text"><a href="videos.html">Science Videos</a></li>
+								</ul>
+							</li>
+						</ul>
 					</div>
 				</div>
-
-			<!-- Main Wrapper -->
-				<div id="main-wrapper">
-					<div class="wrapper style1">
-						<div class="inner">
-							<div class="container">
-								<div class="row">
-									<div class="4u 12u(mobile)">
-										<div id="sidebar">
-
-											<!-- Sidebar -->
-
-												<section>
-													<header class="major">
-														<h2>Curriculum Vitae</h2>
-													</header>
-													<footer>
-														<a href="about/virtualCV.html" class="button icon fa-info-circle">Virtual CV</a>
-														<a href="about/Eric Earley CV.pdf" class="button icon fa-file-pdf-o">Download CV</a>
-													</footer>
-												</section>
-
-												<section>
-													<header class="major">
-														<h2>External Links</h2>
-													</header>
-													<ul class="style2">
-														<li><a href="http://www.ric.org/research/research-centers--programs/bionic-medicine/">Center for Bionic Medicine</a></li>
-														<li><a href="http://www.mccormick.northwestern.edu/biomedical/graduate/index.html">Department of Biomedical Engineering</a></li>
-													</ul>
-												</section>
-
-										</div>
-									</div>
-									<div class="8u 12u(mobile) important(mobile)">
-										<div id="content">
-
-											<!-- Content -->
-
-												<article>
-													<header class="major">
-														<h2>About me</h2>
-														<p>Want to learn more about me? You're on the right page.</p>
-													</header>
-
-													<span class="image featured"><img src="images/header_about.jpg" alt="" /></span>
-
-													<p>I am a PhD candidate at Northwestern University in the department of Biomedical Engineering, 
-													and a graduate student researcher at the Rehabilitation Institute of Chicago's Center for Bionic Medicine.</p>
-													
-													<p>My research focuses on merging two separate fields of study:<br>
-													<b>control of robotic prosthetic hands</b><br>
-													and<br>
-													<b>motor learning and adaptation</b></p>
-													<p></p>
-
-													<h3>Graduate Study</h3>
-													<p>I started at Northwestern in 2012, and began my work at the Center for Bionic Medicine in January of 2013.
-													My research typically focuses on how to control a prosthetic device, rather than the design of th device itself.
-													In my opinion, if you have an incredibly-advanced prosthesis, but can't control it, it becomes little more than
-													an expensive toy.</p>
-
-													<p>I participate in several student organizations at Northwestern. From 2014-2016, I served as the president of
-													<a href="http://sites.northwestern.edu/bmegs">Biomedical Engineering Graduate Students (BMEGS)</a>, which is responsible
-													for planning social and academic events throughout the year. I also serve on the
-													<a href="http://www.mccormick.northwestern.edu/graduate-leadership-council/">McCormick Graduate Leadership Council (MGLC),</a>
-													where I organize workshops on transferable skills for the graduate student population.</p>
-													
-													<p>Finally, I've recently taken to the art of science communication. I participated in the first
-													<a href="http://comscicon.com/">Chicago Communicating Science Conference (ComSciCon-Chicago)</a> in the summer of
-													2015, and became an organizer starting with the second conference in 2016.</p>
-													
-													<h3>Undergraduate Study</h3>
-													<p>I studied Engineering, with a Mechanical specialty, at the Colorado School of Mines from 2008-2012. In addition
-													to the univertisty's multidisciplinary focus, I also participated extensively in the Robotics Club, which served to
-													start my interest in robotics and eventually prompt my graduate studies. My senior design project at Mines was to
-													outfit and control a standing wheelchair using EEG signals from a commercially-available EEG headset. While the end
-													result may not have worked exactly as desired, it did also serve to prime my graduate studies with medical devices.</p>
-													
-												</article>
-
-										</div>
-									</div>
-								</div>
+			</nav>
+		</div>
+		
+		<div class="row" style="margin-left:25%; margin-right:25%;">
+			<img class="img-responsive img-rounded" src="assets/images/header_about.jpg"</img>
+			<h2>Want to learn more about me? You're in the right place.</h2>
+		</div>
+		
+		<div class="row">
+			<h4>My research focuses on merging two separate fields of study:</h4>
+		</div>
+		<div class="row">
+			<div class="col-sm-5" style="text-align:right">
+				<h3>control of robotic prosthetic limbs</h3>
+			</div>
+			<div class="col-sm-2">
+				<h3>&</h3>
+			</div>
+			<div class="col-sm-5" style="text-align:left">
+				<h3>motor learning and adaptation</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="panel-header">External Links</div>
+				<div class="panel-group" id="external-links">
+					<div class="panel panel-narrow">
+						<button data-toggle="collapse" data-parent="#external-links" href="#SRAL" class="collapsed">
+							<table class="fullwidth">
+								<tr class="center-cell">
+									<td><img class="img-responsive" src="assets/images/SRAL.png"</img></td>
+									<td><h3>Shirley Ryan<br>AbilityLab</h3></td>
+								</tr>
+							</table>
+						</button>
+					
+						<div id="SRAL" class="panel-collapse collapse text-left">
+							<a href="https://www.sralab.org/researchers/eric-earley">Personal Profile</a>
+							<br><br>
+							<a href="https://www.sralab.org/labs/center-bionic-medicine">Center for Bionic Medicine</a>
+							<br><br>
+							<a href="https://www.sralab.org/research/labs/neural-engineering-prosthetics-orthotics-lab">Neural Engineering for Prosthetics & Orthotics Lab</a>
+							<br><br>
+							<a href="https://www.sralab.org/researchers/levi-hargrove-phd">Levi J. Hargrove</a>
+						</div>
+					
+						<button data-toggle="collapse" data-parent="#external-links" href="#contributor" class="collapsed">
+							<table class="fullwidth">
+								<tr class="center-cell">
+									<td class="cell-40"><img class="img-responsive" src="assets/images/comsciconchi.png"</img></td>
+									<td class="cell-40"><h3>Contributor Profiles</h3></td>
+								</tr>
+							</table>
+						</button>
+						
+						<div id="contributor" class="panel-collapse collapse text-left">
+							<a href="https://comscicon.com/people/eric-earley">ComSciCon</a>
+							<br><br>
+							<a href="http://helix.northwestern.edu/entities/eric-earley">HELIX Magazine</a>
+						</div>
+					</div>
+				</div>		
+			</div>
+			
+			<div class="col-sm-7">
+				<ul class="nav nav-tabs">
+					<li class="active"><a data-toggle="tab" href="#education">Education</a></li>
+					<li><a data-toggle="tab" href="#experience">Experience</a></li>
+					<li><a data-toggle="tab" href="#leadership">Leadership</a></li>
+				</ul>
+				<div class="tab-content">
+					<div id="education" class="tab-pane panel-group fade in active">
+						<div class="panel panel-narrow">
+							<button data-toggle="collapse" data-parent="#education" href="#education-BS" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-30"><img src="assets/images/mines_logo.png"></img></td>
+										<td class="cell-30"><h3>BS</h3></td>
+										<td class="cell-40"><h3>Engineering:<br>Mechanical Specialty</h3></td>
+									</tr>
+								</table>
+							</button>
+							
+							<div id="education-BS" class="panel-collapse collapse text-justify">
+								<dl>
+									<dt>University</dt>
+									<dd>Colorado School of Mines</dd>
+									<br>
+									<dt>Degree Awarded</dt>
+									<dd>Spring 2012</dd>
+									<br>
+									<dt>Senior Design Topic</dt>
+									<dd>Non-invasive <abbr title="Brain-to-Computer Interface">BCI</abbr> for powered wheelchair control</dd>
+									<br>
+									<dt>Advisor</dt>
+									<dd><a href="http://inside.mines.edu/John-Steele-Bio">John Steele</a></dd>
+									<br>
+									<dt>Course Concentrations</dt>
+									<dd>Biomedical Engineering</dd>
+									<dd>Rehabilitation Engineering</dd>
+									<dd>Robotics</dd>
+									<br>
+									<dt>Activities</dt>
+									<dd>Robotics Club</dd>
+									<dd>Alpha Phi Omega</dd>
+									<dd>Tau Beta Pi</dd>
+									<dd>Concert Band</dd>
+									<dd>Pep Band</dd>
+									<dd>Orchestra</dd>
+									<dd>Jazz Band</dd>
+								</dl>
+							</div>
+							
+							<button data-toggle="collapse" data-parent="#education" href="#education-MS" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-30"><img src="assets/images/nu_logo.png"></img></td>
+										<td class="cell-30"><h3>MS</h3></td>
+										<td class="cell-40"><h3>Biomedical Engineering</h3></td>
+									</tr>
+								</table>
+							</button>
+							
+							<div id="education-MS" class="panel-collapse collapse text-justify">
+								<dl>
+									<dt>University</dt>
+									<dd>Northwestern University</dd>
+									<br>
+									<dt>Degree Awarded</dt>
+									<dd>Summer 2014</dd>
+									<br>
+									<dt>Research Topic</dt>
+									<dd>Pattern recognition for myoelectric partial-hand prosthesis control</dd>
+									<br>
+									<dt>Advisor</dt>
+									<dd><a href="https://www.sralab.org/researchers/levi-hargrove-phd">Levi J. Hargrove</a></dd>
+									<br>
+									<dt>Funding</dt>
+									<dd><abbr title="National Institute on Disability, Independent Living, and Rehabilitation Research">NIDILRR</abbr> grant number 90RE5014-02-00</dd>
+									<br>
+									<dt>Course Concentrations</dt>
+									<dd>Prosthetics & Orthotics</dd>
+									<dd>Physiology</dd>
+									<dd>Machine Learning</dd>
+									<dd>Artificial Intelligence</dd>
+								</dl>
+							</div>
+							
+							<button data-toggle="collapse" data-parent="#education" href="#education-PhD" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-30"><img src="assets/images/nu_logo.png"></img></td>
+										<td class="cell-30"><h3>PhD</h3></td>
+										<td class="cell-40"><h3>Biomedical Engineering</h3></td>
+									</tr>
+								</table>
+							</button>
+							<div id="education-PhD" class="panel-collapse collapse text-justify">
+								<dl>
+									<dt>University</dt>
+									<dd>Northwestern University</dd>
+									<br>
+									<dt>Anticipated Graduation</dt>
+									<dd>2018</dd>
+									<br>
+									<dt>Thesis Topic</dt>
+									<dd>Shared motor adaptation for simultaneous biological/myoelectric limb movement</dd>
+									<br>
+									<dt>Advisors</dt>
+									<dd><a href="https://www.sralab.org/researchers/levi-hargrove-phd">Levi J. Hargrove</a></dd>
+									<dd><a href="http://www.ece.unb.ca/jsensing/">Jon W. Sensinger</a></dd>
+									<br>
+									<dt>Funding</dt>
+									<dd><abbr title="National Science Foundation">NSF</abbr>-<abbr title="National Robotics Initiative">NRI</abbr> 1317379</dd>
+									<dd><abbr title="National Institute of Health">NIH</abbr> grant
+									<abbr title="Ruth L. Kirschstein National Research Service Award (NRSA) Institutional Research Training Grant">T32</abbr> HD07418</dd>
+									<br>
+									<dt>Course Concentrations</dt>
+									<dd>Neuroscience</dd>
+									<dd>Gross Anatomy</dd>
+									<dd>Statistical Analysis</dd>
+								</dl>
+							</div>
+						</div>	
+					</div>
+					
+					<div id="experience" class="tab-pane panel-group fade">
+						<div class="panel panel-narrow">
+							<button data-toggle="collapse" data-parent="#experience" href="#experience-PhD" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-30"><img src="assets/images/SRAL.png"></img></td>
+										<td class="cell-40"><h3>PhD Research</h3></td>
+										<td class="cell-30"><h3>Fall 2014-Present</h3></td>
+									</tr>
+								</table>
+							</button>
+							
+							<div id="experience-PhD" class="panel-collapse collapse text-justify">
+								<dl>
+									<dt>Company</dt>
+									<dd>Shirley Ryan AbilityLab (formerly the <abbr title="Rehabilitation Institute of Chicago">RIC</abbr>)</dd>
+									<br>
+									<dt>Description</dt>
+									<dd>Current work focuses on creating bridge between fields of myoelectric prosthesis control
+									and human motor control in order to address limitations in prosthesis control.
+									Particular focus on how the prosthesis control algorithm affects a user’s motor adaptation,
+									and investigating how to facilitate adaptation to maintain adequate prosthesis control.</dd>
+								</dl>
+							</div>
+							
+							<button data-toggle="collapse" data-parent="#experience" href="#experience-MS" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-30"><img src="assets/images/ric.png"></img></td>
+										<td class="cell-40"><h3>Master's Research</h3></td>
+										<td class="cell-30"><h3>Winter 2012-Winter 2015</h3></td>
+									</tr>
+								</table>
+							</button>
+							
+							<div id="experience-MS" class="panel-collapse collapse text-justify">
+								<dl>
+									<dt>Company</dt>
+									<dd>Rehabilitation Institute of Chicago (now the Shirley Ryan AbilityLab)</dd>
+									<br>
+									<dt>Description</dt>
+									<dd>Focus on improving control of partial-hand prostheses through optimization of EMG pattern-recognition
+									parameters while preserving wrist mobility. Compared the performance of several pattern-recognition algorithms,
+									analysis window lengths, and number of available grasps in terms of prediction accuracy and speed.</dd>
+								</dl>
+							</div>
+							
+							<button data-toggle="collapse" data-parent="#experience" href="#experience-anschutz" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-30"><img src="assets/images/CU.png"></img></td>
+										<td class="cell-40"><h3>Volunteer Intern</h3></td>
+										<td class="cell-30"><h3>Summer 2012</h3></td>
+									</tr>
+								</table>
+							</button>
+							
+							<div id="experience-anschutz" class="panel-collapse collapse text-justify">
+								<dl>
+									<dt>Company</dt>
+									<dd>University of Colorado Anschutz Medical Campus</dd>
+									<br>
+									<dt>Description</dt>
+									<dd>Worked with Dr. Richard Weir to design and CAD a 3 degree of freedom prosthetic hand.
+									Responsible for measuring and creating SolidWorks models of existing prototype,
+									designing thumb actuation mechanism and housing, and designing finger flexion system.</dd>
+								</dl>
+							</div>
+							
+							<button data-toggle="collapse" data-parent="#experience" href="#experience-ada" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-30"><img src="assets/images/adatech.png"></img></td>
+										<td class="cell-40"><h3>Intern</h3></td>
+										<td class="cell-30"><h3>Summer 2011</h3></td>
+									</tr>
+								</table>
+							</button>
+							
+							<div id="experience-ada" class="panel-collapse collapse text-justify">
+								<dl>
+									<dt>Company</dt>
+									<dd>ADA Technologies, Inc.</dd>
+									<br>
+									<dt>Description</dt>
+									<dd>Lead Engineer on a DoD SBIR Phase I project involving fire detection and targeted
+									fire suppression for use in an aircraft dry bay. Personal associated tasks included
+									patent research, prototype and control circuit design, fabrication, and quantitative testing.</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+					
+					<div id="leadership" class="tab-pane panel-group fade">
+						<div class="panel panel-narrow">
+							<button data-toggle="collapse" data-parent="#leadership" href="#leadership-CSCC" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-30"><img src="assets/images/comsciconchi.png"></img></td>
+										<td class="cell-40"><h3><abbr title="Communicating Science Conference">ComSciCon</abbr>-Chicago</h3></td>
+										<td class="cell-30"><h3>2015-Present</h3></td>
+									</tr>
+								</table>
+							</button>
+							
+							<div id="leadership-CSCC" class="panel-collapse collapse text-justify">
+								<dl>
+									<dt>Organization Website</dt>
+									<dd><a href="https://comscicon.com/comscicon-chicago-2017"><abbr title="Communicating Science Conference">ComSciCon</abbr>-Chicago</a></dd>
+									<br>
+									<dt>Positions Held</dt>
+									<dd>Lead Organizer: 2016-2017</dd>
+									<dd>Treasurer: 2015-2017</dd>
+									<br>
+									<dt>Description</dt>
+									<dd>Organizer and treasurer for second conference held summer 2016.
+									Lead organizer for third conference to be held summer 2017. Responsible for overseeing other organizers, tracking budget and donated funds,
+									securing conference location, reimbursing for spent funds, and running the conference event.</dd>
+								</dl>
+							</div>
+							
+							<button data-toggle="collapse" data-parent="#leadership" href="#leadership-MGLC" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-30"><img src="assets/images/NU_logo.png"></img></td>
+										<td class="cell-40"><h3>Northwestern<br><abbr title="McCormick Graduate Leadership Council">MGLC</abbr></h3></td>
+										<td class="cell-30"><h3>2013-Present</h3></td>
+									</tr>
+								</table>
+							</button>
+							
+							<div id="leadership-MGLC" class="panel-collapse collapse text-justify">
+								<dl>
+									<dt>Organization Website</dt>
+									<dd><a href="https://www.mccormick.northwestern.edu/graduate-leadership-council/">McCormick Graduate Leadership Council</a></dd>
+									<br>
+									<dt>Positions Held</dt>
+									<dd>Workshop Instructor: 2014-Present</dd>
+									<dd>Workshop Coordinator: 2014-2017</dd>
+									<br>
+									<dt>Description</dt>
+									<dd>Work with the BME and McCormick staff to coordinate workshops for current graduate students to teach introductory through advanced MATLAB and SolidWorks skills.
+									To date, over 600 graduate students have signed up for these workshops.
+									Coordinated additional workshops on subjects including Adobe Illustrator, Immunohistochemistry, Western Blotting, Statistics, Machine Learning, and Python.</dd>
+								</dl>
+							</div>
+							
+							<button data-toggle="collapse" data-parent="#leadership" href="#leadership-BMEGS" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-30"><img src="assets/images/NU_logo.png"></img></td>
+										<td class="cell-40"><h3>Northwestern<br><abbr title="Biomedical Engineering Graduate Students">BMEGS</abbr></h3></td>
+										<td class="cell-30"><h3>2013-2017</h3></td>
+									</tr>
+								</table>
+							</button>
+							
+							<div id="leadership-BMEGS" class="panel-collapse collapse text-justify">
+								<dl>
+									<dt>Organization Website</dt>
+									<dd><a href="http://sites.northwestern.edu/bmegs/">Biomedical Engineering Graduate Students</a></dd>
+									<br>
+									<dt>Positions Held</dt>
+									<dd>Ambassador: 2016-Present</dd>
+									<dd>Co-President: 2014-2016</dd>
+									<dd>Workshop Instructor: 2013-2014</dd>
+									<br>
+									<dt>Description</dt>
+									<dd>Oversaw periodic academic and social events, maintained communication with other officers, proposed and facilitated changes to annual BME research day
+								including pop talks (short 3-minute overviews of research using jargon-free language),and rebuilt website.</dd>
+								</dl>
+							</div>
+							
+							<button data-toggle="collapse" data-parent="#leadership" href="#leadership-APO" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-30"><img src="assets/images/apo.png"></img></td>
+										<td class="cell-40"><h3>Alpha Phi Omega</h3></td>
+										<td class="cell-30"><h3>2010-2012</h3></td>
+									</tr>
+								</table>
+							</button>
+							
+							<div id="leadership-APO" class="panel-collapse collapse text-justify">
+								<dl>
+									<dt>Organization Website</dt>
+									<dd><a href="https://www.facebook.com/apomupi14">Alpha Phi Omega</a></dd>
+									<br>
+									<dt>Positions Held</dt>
+									<dd>Treasurer: 2011-2012</dd>
+									<dd>Pledge Class President: 2010-2011</dd>
+									<br>
+									<dt>Description</dt>
+									<dd>Non-greek co-ed service fraternity; requirements included minimum 15 hours of community service per semester. Treasurer duties
+									included collecting, tracking, and managing dues and reimbursements for $3000 budget.</dd>
+								</dl>
+							
+								<p></p>
+							</div>
+							
+							<button data-toggle="collapse" data-parent="#leadership" href="#leadership-robo" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-30"><img src="assets/images/mines_logo.png"></img></td>
+										<td class="cell-40"><h3>CSM Robotics Club</h3></td>
+										<td class="cell-30"><h3>2008-2011</h3></td>
+									</tr>
+								</table>
+							</button>
+							
+							<div id="leadership-robo" class="panel-collapse collapse text-justify">
+								<dl>
+									<dt>Organization Website</dt>
+									<dd><a href="https://www.facebook.com/MinesRobotics/">CSM Robotics Club</a></dd>
+									<br>
+									<dt>Positions Held</dt>
+									<dd>Treasurer: 2009-2011</dd>
+									<dd>High School Mentor: 2008-2011</dd>
+									<br>
+									<dt>Description</dt>
+									<dd>Managed $26,000 budget per year, developed and submitted annual budget allocation request.
+									Co-initiated project to design, build and program self-balancing wheelchair.
+									Mentor for <abbr title="For Inspiration & Recognition of Science and Technology">FIRST</abbr> Robotics Competition.
+									Helped migrate from mentor-led to student-led project with critical oversight and guidance.</dd>
+								</dl>
+							</div>
+							
+							<button data-toggle="collapse" data-parent="#leadership" href="#leadership-BSA" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-30"><img src="assets/images/bsa.png"></img></td>
+										<td class="cell-40"><h3>Boy Scouts: Troop 616</h3></td>
+										<td class="cell-30"><h3>2002-2008</h3></td>
+									</tr>
+								</table>
+							</button>
+							
+							<div id="leadership-BSA" class="panel-collapse collapse text-justify">
+								<dl>
+									<dt>Organization Website</dt>
+									<dd><a href="http://www.troop616.org/">BSA Troop 616</a></dd>
+									<br>
+									<dt>Rank Earned</dt>
+									<dd>Eagle Scout, Bronze Palm</dd>
+									<br>
+									<dt>Positions Held</dt>
+									<dd>Assistant Scoutmaster: 2007-2008</dd>
+									<dd>Senior Patrol Leader: 2005-2007</dd>
+									<dd>Patrol Leader: 2003-2005</dd>
+									<br>
+									<dt>Description</dt>
+									<dd>Eagle scout project involved commisioning, designing, and building octagonal bench around tree in local
+									middle school courtyard.</dd>
+								</dl>
 							</div>
 						</div>
 					</div>
 				</div>
-
-			<!-- Footer Wrapper -->
-				<div id="footer-wrapper">
+			</div>
+			<div class="col-sm-2" style="padding-top:56px">
+				<a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/EricJEarley">Tweets by EricJEarley</a>
+				<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+		</div>
+		
+		<div id="footer" class="bg-top">
+			<div class="row">
+				<div class="col-sm-3">
+					<h3>Contact</h3>
+					<table class="table-center">
+						<tr><td><h4 style="text-align:center">Address</h4></td></tr>
+						<tr><td>Center for Bionic Medicine</td></tr>
+						<tr><td>Shirley Ryan AbilityLab</td></tr>
+						<tr><td>355 E Erie St, Suite 11-1414</td></td>
+						<tr><td>Chicago, IL 60610</td></tr>
+					</table>
 				</div>
-
+				<div class="col-sm-6">
+					<br>
+				</div>
+				<div class="col-sm-3">
+					<h3>Connect</h3>
+					<table class="table-center">
+						<tr>
+							<td class="column-left"><span class="icon fa-twitter-square"></span></td>
+							<td class="column-right"><a href="https://twitter.com/EricJEarley">Twitter</a></td>
+						</tr>
+						<tr>
+							<td class="column-left"><span class="icon fa-linkedin-square"></span></td>
+							<td class="column-right"><a href="https://www.linkedin.com/in/ericearley">LinkedIn</a></td>
+						</tr>
+						<tr>
+							<td class="column-left"><span class="icon fa-youtube-square"></span></td>
+							<td class="column-right"><a href="https://www.youtube.com/channel/UCiwT2dGNVAU-8R7c-UAEVVw">YouTube</a></td>
+						</tr>
+						<tr>
+							<td class="column-left"><span class="icon fa-envelope"></span></td>
+							<td class="column-right"><a href="mailto:ericearley@u.northwestern.com">Email</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-12">
+			<p>© 2017 Eric J. Earley | All Rights Reserved</p>
 		</div>
 
-		<!-- Scripts -->
-
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-			<script src="header.js"></script>
-			<script src="footer.js"></script>
-			<!--Highlight current navbar tab-->
-			<script>$("#about").addClass("current_page_item");</script>
+		<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/main.js"></script>
 	</body>
 </html>

@@ -1,0 +1,4 @@
+Main Background: #000d1a
+Secondary Background: #001a34
+Secondary Highlight: #002448
+Navbar text color: #7F8C99
