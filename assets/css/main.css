@@ -47,6 +47,7 @@ body {
 
 .navbar-toggle {
 	border:none;
+	margin:0px 15px 0px;
 }
 
 #navbar-text{
