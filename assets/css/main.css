@@ -66,10 +66,6 @@ body {
 	margin:0px 15px 0px;
 }
 
-#navbar-text{
-	color:#7F8C99 !important
-}
-
 /*.panel-default {
 	margin-left: 10%;
 	margin-right: 10%;
@@ -105,7 +101,6 @@ body {
 	border-image-slice: 1;
 	border-radius: 0px 10px 0px 10px;
 }
-
 
 .bg-top {
 	padding: 0.5%;
@@ -243,6 +238,10 @@ td.cell-40 {
 
 .nav-tabs >li > a {
 	color: #eeeeee;
+}
+
+.nav-tabs > li > a:hover{
+	background-color: #001a34;
 }
 
 .timeline-widget{
