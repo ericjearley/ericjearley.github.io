@@ -10,7 +10,7 @@ body {
   background-color: #001a34;
   border-color: #001a34;
   /*box-shadow: 5px 5px 20px black;*/
-  font-size:18px;
+  font-size:24px;
 }
 
 /*gradient but sharp edge navbar*/
@@ -58,7 +58,7 @@ body {
 }
 
 .navbar-brand{
-	font-size: 24px;
+	font-size: 28px;
 }
 
 .navbar-toggle {
