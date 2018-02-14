@@ -147,6 +147,7 @@ header.lefticon:before {
 
 .icon {
 	text-decoration: none;
+	vertical-align: middle;
 }
 
 .icon:before {
@@ -254,6 +255,16 @@ td.cell-40 {
 
 abbr[title], acronym[title] {
 	text-decoration: none;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.carousel-control.left, .carousel-control.right{
+	background-image: none;
+	top: 40%;
+	font-size: 50px;
 }
 
 /*@media all and (transform-3d), (-webkit-transform-3d) {
