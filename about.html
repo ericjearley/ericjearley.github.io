@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -482,52 +482,72 @@
 		
 		<div class="row">
 			<div class="col-sm-8">
-				<div class="panel-header">External Links</div>
-				<div class="panel-group" id="external-links">
-					<div class="panel panel-narrow">
-						<button data-toggle="collapse" data-parent="#external-links" href="#SRAL" class="collapsed">
-							<table class="fullwidth">
-								<tr class="center-cell">
-									<td><img class="img-responsive" src="assets/images/SRAL.png" alt="Shirley Ryan AbilityLab logo"</img></td>
-									<td><h3>Shirley Ryan<br>AbilityLab</h3></td>
-								</tr>
-							</table>
-						</button>
-					
-						<div id="SRAL" class="panel-collapse collapse text-left">
-							<a href="https://www.sralab.org/researchers/eric-earley">Personal Profile</a>
-							<br><br>
-							<a href="https://www.sralab.org/labs/center-bionic-medicine">Center for Bionic Medicine</a>
-							<br><br>
-							<a href="https://www.sralab.org/research/labs/neural-engineering-prosthetics-orthotics-lab">Neural Engineering for Prosthetics & Orthotics Lab</a>
-							<br><br>
-							<a href="https://www.sralab.org/researchers/levi-hargrove-phd">Levi J. Hargrove</a>
-						</div>
-					
-						<button data-toggle="collapse" data-parent="#external-links" href="#contributor" class="collapsed">
-							<table class="fullwidth">
-								<tr class="center-cell">
-									<td class="cell-40"><img class="img-responsive" src="assets/images/comsciconchi.png" alt="ComSciCon-Chicago logo"></img></td>
-									<td class="cell-40"><h3>Contributor Profiles</h3></td>
-								</tr>
-							</table>
-						</button>
+				<ul class="nav nav-tabs">
+					<li class="active"><a data-toggle="tab" href="#external-links">External Links</a></li>
+					<li><a data-toggle="tab" href="#cv">CV</a></li>
+				</ul>
+				
+				<div class="tab-content">
+					<div id="external-links" class="tab-pane panel-group fade in active">
+						<div class="panel panel-narrow">
+							<button data-toggle="collapse" data-parent="#external-links" href="#SRAL" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td><img class="img-responsive" src="assets/images/SRAL.png" alt="Shirley Ryan AbilityLab logo"</img></td>
+										<td><h3>Shirley Ryan<br>AbilityLab</h3></td>
+									</tr>
+								</table>
+							</button>
 						
-						<div id="contributor" class="panel-collapse collapse text-left">
-							<a href="https://comscicon.com/people/eric-earley">ComSciCon</a>
-							<br><br>
-							<a href="http://helix.northwestern.edu/entities/eric-earley">HELIX Magazine</a>
+							<div id="SRAL" class="panel-collapse collapse text-left">
+								<a href="https://www.sralab.org/researchers/eric-earley">Personal Profile</a>
+								<br><br>
+								<a href="https://www.sralab.org/labs/center-bionic-medicine">Center for Bionic Medicine</a>
+								<br><br>
+								<a href="https://www.sralab.org/research/labs/neural-engineering-prosthetics-orthotics-lab">Neural Engineering for Prosthetics & Orthotics Lab</a>
+								<br><br>
+								<a href="https://www.sralab.org/researchers/levi-hargrove-phd">Levi J. Hargrove</a>
+							</div>
+						
+							<button data-toggle="collapse" data-parent="#external-links" href="#contributor" class="collapsed">
+								<table class="fullwidth">
+									<tr class="center-cell">
+										<td class="cell-40"><img class="img-responsive" src="assets/images/comsciconchi.png" alt="ComSciCon-Chicago logo"></img></td>
+										<td class="cell-40"><h3>Contributor Profiles</h3></td>
+									</tr>
+								</table>
+							</button>
+							
+							<div id="contributor" class="panel-collapse collapse text-left">
+								<a href="https://comscicon.com/people/eric-earley">ComSciCon</a>
+								<br><br>
+								<a href="http://helix.northwestern.edu/entities/eric-earley">HELIX Magazine</a>
+							</div>
 						</div>
-					</div>
-				</div>		
+					</div>	
+
+					<div id="cv" class="tab-pane panel-group fade">
+						<div class="panel panel-narrow">
+							<a href="assets/files/Earley CV 2018.pdf">
+								<button data-parent="#cv" class="collapsed">
+									<h1 style="text-align:center">Click here to to download my CV</h1>
+								</button>
+							</a>
+						</div>
+					</div>	
+				</div>
+				
 			</div>
 			<div class="col-sm-4" style="padding-top:56px">
 				<a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/EricJEarley">Tweets by EricJEarley</a>
 				<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>			
 		</div>
+		<br>
 		
-		<div id="footer" class="bg-top">
+		<div class="bg-break"></div>
+		
+		<div id="footer">
 			<div class="row">
 				<div class="col-sm-4">
 					<h3>Contact</h3>
@@ -566,7 +586,7 @@
 			</div>
 		</div>
 		<div class="col-sm-12">
-			<p>© 2017 Eric J. Earley | All Rights Reserved</p>
+			<p>© 2018 Eric J. Earley | All Rights Reserved</p>
 		</div>
 
 		<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
