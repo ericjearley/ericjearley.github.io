@@ -204,6 +204,14 @@ button.navbar-toggle{
 	height: 50px;
 }
 
+button.clickbutton {
+	width: 250px;
+	border-radius: 12px;
+	text-align: center;
+	font-size: 28px;
+	color: #7f8c99
+}
+
 div.panel {
 	border:none;
 	padding: 0 18px;
