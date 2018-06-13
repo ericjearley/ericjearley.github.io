@@ -39,11 +39,9 @@ function doKeyDown(e){
 	}
 	if(e.keyCode==87){//W
 	T2 = T2-pi/45;
-	console.log(T2)
 	}
 	else if(e.keyCode==83){//W
 	T2 = T2+pi/45;
-	console.log(T2)
 	}
 
 	/*inverse kinematics*/
