@@ -32,24 +32,24 @@ ctx.translate(250,250);
 function doKeyDown(e){
 	/*forward kinematics*/
 	if(e.keyCode==65){//A
-	T1 = T1+pi/45;
+	T1 = T1+pi/30;
 	}
 	else if(e.keyCode==68){//D
-	T1 = T1-pi/45;
+	T1 = T1-pi/30;
 	}
 	if(e.keyCode==87){//W
-	T2 = T2-pi/45;
+	T2 = T2-pi/30;
 	}
 	else if(e.keyCode==83){//W
-	T2 = T2+pi/45;
+	T2 = T2+pi/30;
 	}
 
 	/*inverse kinematics*/
 	var C2 = new Circle(L1*Math.cos(T1)+L2*Math.cos(T1+T2),L1*Math.sin(T1)+L2*Math.sin(T1+T2),R);
 	if(e.keyCode==74){//J
-		C2.x = C2.x - 5;
+		C2.x = C2.x - 8;
 		if ((Math.pow(C2.x,2)+Math.pow(C2.y,2))>Math.pow(((L1+L2)),2)){
-			C2.x = C2.x+5;
+			C2.x = C2.x+8;
 		}
 		else{
 			T2 = Math.acos((Math.pow(C2.x,2)+Math.pow(C2.y,2)-Math.pow(L1,2)-Math.pow(L2,2))/(2*L1*L2))*Math.sign(T2);
@@ -57,9 +57,9 @@ function doKeyDown(e){
 		}
 	}
 	else if(e.keyCode==76){//L
-		C2.x = C2.x + 5;
+		C2.x = C2.x + 8;
 		if ((Math.pow(C2.x,2)+Math.pow(C2.y,2))>Math.pow(((L1+L2)),2)){
-			C2.x = C2.x-5;
+			C2.x = C2.x-8;
 		}
 		else{
 			T2 = Math.acos((Math.pow(C2.x,2)+Math.pow(C2.y,2)-Math.pow(L1,2)-Math.pow(L2,2))/(2*L1*L2))*Math.sign(T2);
@@ -68,9 +68,9 @@ function doKeyDown(e){
 	}
 
 	if(e.keyCode==73){//I
-		C2.y = C2.y - 5;
+		C2.y = C2.y - 8;
 		if ((Math.pow(C2.x,2)+Math.pow(C2.y,2))>Math.pow(((L1+L2)),2)){
-			C2.y = C2.y+5;
+			C2.y = C2.y+8;
 		}
 		else{
 			T2 = Math.acos((Math.pow(C2.x,2)+Math.pow(C2.y,2)-Math.pow(L1,2)-Math.pow(L2,2))/(2*L1*L2))*Math.sign(T2);
@@ -78,9 +78,9 @@ function doKeyDown(e){
 		}
 	}
 	else if(e.keyCode==75){//K
-		C2.y = C2.y + 5;
+		C2.y = C2.y + 8;
 		if ((Math.pow(C2.x,2)+Math.pow(C2.y,2))>Math.pow(((L1+L2)),2)){
-			C2.y = C2.y-5;
+			C2.y = C2.y-8;
 		}
 		else{
 			T2 = Math.acos((Math.pow(C2.x,2)+Math.pow(C2.y,2)-Math.pow(L1,2)-Math.pow(L2,2))/(2*L1*L2))*Math.sign(T2);
