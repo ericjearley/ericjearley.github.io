@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -6,10 +6,10 @@
 		<link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="shortcut icon" href="assets/images/favicon.ico"/>
-		<title>Kinematics Demo | Eric J. Earley</title>
+		<title>Interactive Demos | Eric J. Earley</title>
 	</head>
 	
-	<body onload="init();">
+	<body>
 		<div id="header">
 			<nav class="navbar navbar-default">
 				<div class="container-fluid">
@@ -50,27 +50,16 @@
 			</nav>
 		</div>
 		
-		<div>
-		
-		<h1>Kinematics Demo</h1>
-		<canvas id="demoCanvas" width="500" height="500"><canvas/>
-		
-		</div>
-		
 		<div class="row">
-			<div class="col-sm-6">
-				<h2>Forward Kinematics</h2>
-				<p>Use W, A, S, & D on the keyboard to control the joint angles of the arm.</p>
-				<p>The endpoint position will be determined by the joint angles.</p>
-			</div>
-			<div class="col-sm-6">
-				<h2>Inverse Kinematics</h2>
-				<p>Use I, J, K, & L on the keyboard to control the <i>x</i> and <i>y</i> position of the endpoint.</p>
-				<p>The joint angles will be determined by the endpoint position.</p>
-			</div>
+			<h1>Interactive Web Demos</h1>
+			<a href="kinematics_demo.html"><h2>Forward and Inverse Kinematics</h2></a>
 		</div>
 		
-		<div id="footer" class="bg-top">
+		<br>
+		
+		<div class="bg-break"></div>
+		
+		<div id="footer">
 			<div class="row">
 				<div class="col-sm-3">
 					<a href="https://twitter.com/EricJEarley" class="icon fa-twitter-square fa-3x" style="color:#eeeeee;" target="_blank"></a>
@@ -94,6 +83,5 @@
 		<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="assets/js/main.js"></script>
-		<script type="text/javascript" src="assets/js/kinematics.js"></script>
 	</body>
 </html>
