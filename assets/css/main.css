@@ -209,7 +209,11 @@ button.clickbutton {
 	border-radius: 12px;
 	text-align: center;
 	font-size: 28px;
-	color: #7f8c99
+	color: #dddddd
+}
+
+button.clickbutton:hover{
+	
 }
 
 div.panel {
@@ -284,6 +288,40 @@ abbr[title], acronym[title] {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.btn:hover, .btn:active, .btn:focus{
+	background-color: #00152F;
+	color: #dddddd;
+	border-color: #000d1a;
+	outline: none;
+}
+
+.modal-content{
+	background-color: #000d1a;
+	border-color: #000d1a;
+}
+
+.modal-header{
+	border-bottom: none;
+}
+
+.modal-footer{
+	border-top: none;
+}
+
+.modal-footer button{
+	background-color: #001a34;
+	color: #eeeeee;
+	border-color: #000d1a;
+}
+
+
+.modal-footer button:hover, .modal-footer  button:active, .modal-footer  button:focus{
+	background-color: #00152F;
+	color: #dddddd;
+	border-color: #000d1a;
+	outline: none;
 }
 
 /*@media all and (transform-3d), (-webkit-transform-3d) {
