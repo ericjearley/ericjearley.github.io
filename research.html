@@ -2,184 +2,203 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-		<link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="shortcut icon" href="assets/images/favicon.ico"/>
 		<title>Research | Eric J. Earley</title>
 	</head>
 	
 	<body>
-		<div id="header">
-			<nav class="navbar navbar-default">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<a id="navbar-text" class="navbar-brand" href="index.html">Eric J. Earley</a>
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarcontents" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon fa-bars fa-lg"></span>
-						</button>
-					</div>
-				
-					<div class="collapse navbar-collapse" id="navbarcontents">
-						<ul class="nav navbar-nav navbar-right">
-							<li id="navbar-text"><a href="about.html">About</a></li>
-							<li id="navbar-text"><a href="research.html">Research</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-								aria-haspopup="true" aria-expanded="false">Outreach<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li id="navbar-text"><a href="collabs.html">Collabs</a></li>
-									<li id="navbar-text"><a href="public_talks.html">Public Talks</a></li>
-									<li id="navbar-text"><a href="videos.html">Science Videos</a></li>
-									<li id="navbar-text"><a href="writing.html">Science Writing</a></li>
-									<li id="navbar-text"><a href="demos.html">Web Demos</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-								aria-haspopup="true" aria-expanded="false">Hobbies<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li id="navbar-text"><a href="photography.html">Photography</a></li>
-									<li id="navbar-text"><a href="quotes.html">Quotes</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
+		<div id="header" class="text-light">
+			<nav class="navbar navbar-expand-lg">
+				<a class="navbar-brand" href="index.html">Eric J. Earley | Research</a>
+				<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarcontents" aria-controls="navbarcontents" aria-expanded="false" aria-label="Toggle navigation">
+					<!--<span class="navbar-toggler-icon"></span>-->
+					<span><i class="fa fa-bars fa-2x" style="color:#ffffff"></i></span>
+				</button>
+			
+				<div class="collapse navbar-collapse" id="navbarcontents">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+							aria-haspopup="true" aria-expanded="false">Outreach<span class="caret"></span></a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="videos.html">Science Videos</a>
+								<a class="dropdown-item" href="writing.html">Science Writing</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="collabs.html">Collabs</a>
+								<a class="dropdown-item" href="public_talks.html">Public Talks</a>
+								<a class="dropdown-item" href="demos.html">Web Demos</a>
+								
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+							aria-haspopup="true" aria-expanded="false">Hobbies<span class="caret"></span></a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="photography.html">Photography</a>
+								<a class="dropdown-item" href="quotes.html">Quotes</a>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</nav>
 		</div>
 		
-		<h2>Links to all publications can be found on my <a href="https://scholar.google.com/citations?user=iOv_ss4AAAAJ" target="_blank">Google Scholar</a> page.</h2>
+		<h1>Links to all publications can be found on my <a href="https://scholar.google.com/citations?user=iOv_ss4AAAAJ" target="_blank">Google Scholar</a> page.</h1>
 		
-		<div class="row" class="col-sm-12">
-			<div class="panel-header">Peer-Reviewed Publications</div>
-			<div class="panel-group" id="publications">
-				<div class="panel panel-narrow">
-					<button data-toggle="collapse" data-parent="#publications" href="#Frontiers2016" class="collapsed">
-						<table class="fullwidth">
-							<tr class="center-cell">
-								<td><img class="img-responsive" src="assets/images/frontiersneuroscience.png" alt="Frontiers in Neuroscience"></img></td>
-								<td><h3>Dual Window Pattern Recognition Classifier<br>for Improved Partial-Hand Prosthesis Control</h3></td>
-							</tr>
-						</table>
-					</button>
-				
-					<div id="Frontiers2016" class="panel-collapse collapse text-left">
-						<h3><a href="https://www.frontiersin.org/articles/10.3389/fnins.2016.00058/full">Link</a></h3>
-						<h3>Citation</h3>
-						<p><b>E.J. Earley</b>, L.J. Hargrove, T.A. Kuiken,
-						"Dual Window Pattern Recognition Classifier for Improved Partial-Hand Prosthesis Control,"
-						<i>Frontiers in Neuroscience</i>, vol. 10, no. 58, 2016. doi:10.3389/fnins.2016.00058.</p>
-					</div>
-				</div>
-			</div>			
+		<br>
+		
+		<h2>Peer-Reviewed Publications</h2>
+		<div class="row">
+			<div class="col-sm-6">
+				<h4>Joint Speed Discrimination and Augmentation For Prosthesis Feedback</h4>
+				<dl>
+					<dt>Authors</dt>
+					<dd>Eric J. Earley, Reva E. Johnson, Levi J. Hargrove, Jon W. Sensinger</dd>
+					<dt>Year</dt>
+					<dd>2018</dd>
+					<dt>Journal</dt>
+					<dd>Scientific Reports</dd>
+					<dt>Link</dt>
+					<dd><a href="https://www.nature.com/articles/s41598-018-36126-4" target="_blank">Scientific Reports</a></dd>
+					<dd><a href="https://osf.io/ahcpq/" target="_blank">Data and Code Repository</a></dd>
+					<dd><a href="https://osf.io/q37hs" target="_blank">Public Registration</a></dd>
+				</dl>
+			</div>
+			<div class="col-sm-6">
+				<h4>Dual Window Pattern Recognition Classifier for Improved Partial-Hand Prosthesis Control</h4>
+				<dl>
+					<dt>Authors</dt>
+					<dd>Eric J. Earley, Levi J. Hargrove, Todd A. Kuiken</dd>
+					<dt>Year</dt>
+					<dd>2016</dd>
+					<dt>Journal</dt>
+					<dd>Frontiers in Neuroscience</dd>
+					<dt>Link</dt>
+					<dd><a href="https://www.frontiersin.org/articles/10.3389/fnins.2016.00058/full" target="_blank">Frontiers in Neuroscience</a></dd>
+				</dl>
+			</div>
 		</div>
 		
-		<div class="row" class="col-sm-12">
-			<div class="panel-header">Conference Papers and Posters</div>
-			<div class="panel-group" id="conferencepapers">
-				<div class="panel panel-narrow">
-					<button data-toggle="collapse" data-parent="#conferencepapers" href="#MEC2017" class="collapsed">
-						<table class="fullwidth">
-							<tr class="center-cell">
-								<td><img class="img-responsive" src="assets/images/MEC17.png" alt="Myoelectric Controls Symposium 2017"></img></td>
-								<td><h3>Joint-Based Velocity Feedback<br>Improves Myoelectric Prosthesis Performance</h3></td>
-							</tr>
-						</table>
-					</button>
-				
-					<div id="MEC2017" class="panel-collapse collapse text-left">
-						<h3><a href="http://www.unb.ca/conferences/mec/_resources/docs/proceedings.pdf">Link</a>
-						<h3>Citation</h3>
-						<p><b>E.J. Earley</b>, K.J. Kaveny, R.E. Johnson, L.J. Hargrove and J.W. Sensinger,
-						"Joint-based velocity feedback improves myoelectric prosthesis performance,"
-						<i>2017 Myoelectric Controls and Upper Limb Prosthetics Symposium</i>, pp. 116, 2017.</p>
-					</div>
-					
-					<button data-toggle="collapse" data-parent="#conferencepapers" href="#ICORR2017" class="collapsed">
-						<table class="fullwidth">
-							<tr class="center-cell">
-								<td><img class="img-responsive" src="assets/images/ICORR2017.png" alt="International Conference on Rehabilitation Robotics 2017"></img></td>
-								<td><h3>Joint-Based Velocity Feedback<br>to Virtual Limb Dynamic Perturbations</h3></td>
-							</tr>
-						</table>
-					</button>
-				
-					<div id="ICORR2017" class="panel-collapse collapse text-left">
-						<h3><a href="http://ieeexplore.ieee.org/abstract/document/8009430/">Link</a>
-						<h3>Citation</h3>
-						<p><b>E.J. Earley</b>, K.J. Kaveny, R.E. Johnson, L.J. Hargrove and J.W. Sensinger,
-						"Joint-based velocity feedback to virtual limb dynamic perturbations,"
-						<i>2017 International Conference on Rehabilitation Robotics (ICORR)</i>, pp. 1313-1318, 2017.
-						doi: 10.1109/ICORR.2017.8009430</p>
-					</div>
-					
-					<button data-toggle="collapse" data-parent="#conferencepapers" href="#BioRob2016" class="collapsed">
-						<table class="fullwidth">
-							<tr class="center-cell">
-								<td><img class="img-responsive" src="assets/images/biorob.png" alt="Biorobotics 2016"></img></td>
-								<td><h3>The Effect of Wrist Position and Hand-Grasp Pattern<br>on Virtual Prosthesis Task Performance</h3></td>
-							</tr>
-						</table>
-					</button>
-				
-					<div id="BioRob2016" class="panel-collapse collapse text-left">
-						<h3><a href="http://ieeexplore.ieee.org/abstract/document/7523682/">Link</a>
-						<h3>Citation</h3>
-						<p><b>E.J. Earley</b> and L.J. Hargrove,
-						"The Effect of Wrist Position and Hand-Grasp Pattern on Virtual Prosthesis Task Performance,"
-						<i>6th IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechatronics (BioRob)</i>, pp. 542-547, 2016.
-						doi: 10.1109/BIOROB.2016.7523682</p>
-					</div>
-					
-					<button data-toggle="collapse" data-parent="#conferencepapers" href="#EMBC2014" class="collapsed">
-						<table class="fullwidth">
-							<tr class="center-cell">
-								<td><img class="img-responsive" src="assets/images/EMBC.png" alt="Engineering in Medicine and Biology Conference"></img></td>
-								<td><h3>Optimizing Pattern Recognition-Based Control<br>for Partial-Hand Prosthesis Application</h3></td>
-							</tr>
-						</table>
-					</button>
-				
-					<div id="EMBC2014" class="panel-collapse collapse text-left">
-					
-						<h3><a href="http://ieeexplore.ieee.org/abstract/document/6944395/">Link</a>
-						<h3>Citation</h3>
-						<p><b>E.J. Earley</b>, A.A. Adewuyi, and L.J. Hargrove,
-						"Optimizing Pattern Recognition-Based Control for Partial-Hand Prosthesis Application,"
-						<i>Engineering in Medicine and Biology Society (EMBC), 36th Annual International Conference of the IEEE</i>, pp. 3574-3577, 2014.
-						doi: 10.1109/EMBC.2014.6944395</p>
-					</div>
-				</div>
-			</div>			
-		</div>
+		<br>
 		
-		<div class="bg-break"></div>
-		
-		<div id="footer">
+		<div>
+			<h2>Conference Papers and Posters</h2>
 			<div class="row">
-				<div class="col-sm-3">
-					<a href="https://twitter.com/EricJEarley" class="icon fa-twitter-square fa-3x" style="color:#eeeeee;" target="_blank"></a>
+				<div class="col-sm-6">
+					<h4>Modeling Expected Reaching Error and Behaviors for Motor Adaptation</h4>
+					<dl>
+						<dt>Authors</dt>
+						<dd>Eric J. Earley, Levi J. Hargrove</dd>
+						<dt>Year</dt>
+						<dd>2019</dd>
+						<dt>Conference</dt>
+						<dd>International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)</dd>
+						<dt>Link</dt>
+						<dd>(Not yet available)</dd>
+					</dl>
 				</div>
-				<div class="col-sm-3">
-					<a href="https://www.linkedin.com/in/ericjearley" class="icon fa-linkedin-square fa-3x" style="color:#eeeeee;" target="_blank"></a>
+				<div class="col-sm-6">
+					<h4>Visual Discrimination of Biomimetic Arm Speeds</h4>
+					<dl>
+						<dt>Authors</dt>
+						<dd>Eric J. Earley, Reva E. Johnson, Levi J. Hargrove, Jon W. Sensinger</dd>
+						<dt>Year</dt>
+						<dd>2018</dd>
+						<dt>Conference</dt>
+						<dd>School and Symposium on Advanced Neurorehabilitation (SSNR)</dd>
+						<dt>Link</dt>
+						<dd><a href="http://ssnr2018.org/wp-content/uploads/2018/10/SSNR-2018-Proceedings_Corrected.pdf" target="_blank">SSNR 2018</a></dd>
+					</dl>
 				</div>
-				<div class="col-sm-3">
-					<a href="https://www.youtube.com/channel/UCiwT2dGNVAU-8R7c-UAEVVw" class="icon fa-youtube-square fa-3x" style="color:#eeeeee;" target="_blank"></a>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-6">
+					<h4>Joint-Based Velocity Feedback Improves Myoelectric Prosthesis Performance</h4>
+					<dl>
+						<dt>Authors</dt>
+						<dd>Eric Earley, Kyle Kavney, Reva Johnson, Levi Hargrove, Jon Sensinger</dd>
+						<dt>Year</dt>
+						<dd>2017</dd>
+						<dt>Conference</dt>
+						<dd>Myoelectric Controls and Upper Limb Prosthetics Symposium</dd>
+						<dt>Link</dt>
+						<dd><a href="https://www.unb.ca/research/institutes/biomedical/mec/_resources/docs/Past%20MEC%20Proceeding/MEC17FullProceedings.pdf" target="_blank">MEC '17 Conference Proceedings</a></dd>
+					</dl>
 				</div>
-				<div class="col-sm-3">
-					<a href="mailto:ericearley@u.northwestern.com" class="icon fa-envelope fa-3x" style="color:#eeeeee;"></a>
+				<div class="col-sm-6">
+					<h4>Joint-Based Velocity Feedback to Virtual Limb Dynamic Perturbations</h4>
+					<dl>
+						<dt>Authors</dt>
+						<dd>Eric J. Earley, Kyle J. Kavney, Reva E. Johnson, Levi J. Hargrove, Jon W. Sensinger</dd>
+						<dt>Year</dt>
+						<dd>2017</dd>
+						<dt>Conference</dt>
+						<dd>International Conference on Rehabilitation Robotics (ICORR)</dd>
+						<dt>Link</dt>
+						<dd><a href="http://ieeexplore.ieee.org/abstract/document/8009430/" target="_blank">ICORR 2017</a></dd>
+					</dl>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-6">
+					<h4>The Effect of Wrist Position and Hand-Grasp Pattern on Virtual Prosthesis Task Performance</h4>
+					<dl>
+						<dt>Authors</dt>
+						<dd>Eric J. Earley,Levi J. Hargrove</dd>
+						<dt>Year</dt>
+						<dd>2016</dd>
+						<dt>Conference</dt>
+						<dd>International Conference on Biomedical Robotics and Biomechatronics (BioRob)</dd>
+						<dt>Link</dt>
+						<dd><a href="http://ieeexplore.ieee.org/abstract/document/7523682/" target="_blank">BioRob 2016</a></dd>
+					</dl>
+				</div>
+				<div class="col-sm-6">
+					<h4>Optimizing Pattern Recognition-Based Control for Partial-Hand Prosthesis Application</h4>
+					<dl>
+						<dt>Authors</dt>
+						<dd>Eric J. Earley, Adenike A. Adewuyi, Levi J. Hargrove</dd>
+						<dt>Year</dt>
+						<dd>2014</dd>
+						<dt>Conference</dt>
+						<dd>International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)</dd>
+						<dt>Link</dt>
+						<dd><a href="http://ieeexplore.ieee.org/abstract/document/6944395/" target="_blank">EMBC 2014</a></dd>
+					</dl>
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-12">
-			<br>
-			<p>© 2018 Eric J. Earley | All Rights Reserved</p>
-		</div>
 
-		<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="assets/js/main.js"></script>
+		<div id="footer">
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="https://twitter.com/EricJEarley" style="color:#111111;" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+				</div>
+				<div class="col-sm-3">
+					<a href="https://www.linkedin.com/in/ericjearley" style="color:#111111;" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+				</div>
+				<div class="col-sm-3">
+					<a href="https://www.youtube.com/channel/UCiwT2dGNVAU-8R7c-UAEVVw" style="color:#111111;" target="_blank"><i class="fa fa-youtube-square fa-3x"></i></a>
+				</div>
+				<div class="col-sm-3">
+					<a href="mailto:ericearley@u.northwestern.com" style="color:#111111;"><i class="fa fa-envelope fa-3x"></i></a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-sm-12">
+			<p>© 2019 Eric J. Earley | All Rights Reserved</p>
+		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>

@@ -2,65 +2,62 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-		<link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="shortcut icon" href="assets/images/favicon.ico"/>
 		<title>Photography | Eric J. Earley</title>
 	</head>
 	
 	<body>
-		<div id="header">
-			<nav class="navbar navbar-default">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<a id="navbar-text" class="navbar-brand" href="index.html">Eric J. Earley</a>
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarcontents" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon fa-bars fa-lg"></span>
-						</button>
-					</div>
-				
-					<div class="collapse navbar-collapse" id="navbarcontents">
-						<ul class="nav navbar-nav navbar-right">
-							<li id="navbar-text"><a href="about.html">About</a></li>
-							<li id="navbar-text"><a href="research.html">Research</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-								aria-haspopup="true" aria-expanded="false">Outreach<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li id="navbar-text"><a href="collabs.html">Collabs</a></li>
-									<li id="navbar-text"><a href="public_talks.html">Public Talks</a></li>
-									<li id="navbar-text"><a href="videos.html">Science Videos</a></li>
-									<li id="navbar-text"><a href="writing.html">Science Writing</a></li>
-									<li id="navbar-text"><a href="demos.html">Web Demos</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-								aria-haspopup="true" aria-expanded="false">Hobbies<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li id="navbar-text"><a href="photography.html">Photography</a></li>
-									<li id="navbar-text"><a href="quotes.html">Quotes</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
+		<div id="header" class="text-light">
+			<nav class="navbar navbar-expand-lg">
+				<a class="navbar-brand" href="index.html">Eric J. Earley | Photos</a>
+				<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarcontents" aria-controls="navbarcontents" aria-expanded="false" aria-label="Toggle navigation">
+					<!--<span class="navbar-toggler-icon"></span>-->
+					<span><i class="fa fa-bars fa-2x" style="color:#ffffff"></i></span>
+				</button>
+			
+				<div class="collapse navbar-collapse" id="navbarcontents">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+							aria-haspopup="true" aria-expanded="false">Outreach<span class="caret"></span></a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="videos.html">Science Videos</a>
+								<a class="dropdown-item" href="writing.html">Science Writing</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="collabs.html">Collabs</a>
+								<a class="dropdown-item" href="public_talks.html">Public Talks</a>
+								<a class="dropdown-item" href="demos.html">Web Demos</a>
+								
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+							aria-haspopup="true" aria-expanded="false">Hobbies<span class="caret"></span></a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="photography.html">Photography</a>
+								<a class="dropdown-item" href="quotes.html">Quotes</a>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</nav>
-		</div>
-		
+		</div>		
 		
 		<div class="row">
 			<!-- Chicago -->
 			<div class="col-sm-6">
 				<h1>Chicago 2018</h1>
-				<img class="img-rounded img-responsive" src="assets/images/chicago2018_01.jpg" alt="Chicago"></img>
+				<img class="img-fluid rounded" src="assets/images/chicago2018_01.jpg" alt="Chicago"></img>
 				<button type="button" class="btn btn-lg" data-toggle="modal" data-target="#ChicagoModal">View more photos</button>
 				
-				<div class="modal fade" id="ChicagoModal" role="dialog">
+				<div class="modal fade" id="ChicagoModal" tabindex="-1" role="dialog">
 					
-					<div class="modal-dialog modal-lg">
+					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
 								<h2 class="modal-title">Chicago 2018</h2>
@@ -77,43 +74,44 @@
 										<li data-target="#ChicagoCarousel" data-slide-to="5"></li>
 										<li data-target="#ChicagoCarousel" data-slide-to="6"></li>
 									</ol>
+									<!-- Content -->
 									<div class="carousel-inner">
-										<div class="item active">
-											<img class="img-rounded" src="assets/images/chicago2018_01.jpg" alt="Chicago"></img>
+										<div class="carousel-item active">
+											<img class="img-fluid rounded" src="assets/images/chicago2018_01.jpg" alt="Chicago"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/chicago2018_02.jpg" alt="Chicago"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/chicago2018_02.jpg" alt="Chicago"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/chicago2018_03.jpg" alt="Chicago"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/chicago2018_03.jpg" alt="Chicago"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/chicago2018_04.jpg" alt="Chicago"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/chicago2018_04.jpg" alt="Chicago"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/chicago2018_05.jpg" alt="Chicago"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/chicago2018_05.jpg" alt="Chicago"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/chicago2018_06.jpg" alt="Chicago"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/chicago2018_06.jpg" alt="Chicago"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/chicago2018_07.jpg" alt="Chicago"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/chicago2018_07.jpg" alt="Chicago"></img>
 										</div>
 
 									</div>
 									<!-- Left and right controls -->
-									<a class="left carousel-control" href="#ChicagoCarousel" data-slide="prev">
-										<span class="icon glyphicon fa-angle-left"></span>
+									<a class="carousel-control-prev" href="#ChicagoCarousel" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 										<span class="sr-only">Previous</span>
 									</a>
-									<a class="right carousel-control" href="#ChicagoCarousel" data-slide="next">
-										<span class="icon glyphicon fa-angle-right"></span>
+									<a class="carousel-control-next" href="#ChicagoCarousel" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
 										<span class="sr-only">Next</span>
 									</a>
 								</div>
 							</div>
 							<div class="modal-footer">
-							  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							  <button type="button" class="btn" data-dismiss="modal">Close</button>
 							</div>
 						</div>
 					</div>
@@ -124,12 +122,12 @@
 			<!-- Boston -->
 			<div class="col-sm-6">
 				<h1>Boston 2018</h1>
-				<img class="img-rounded img-responsive" src="assets/images/boston2018_01.jpg" alt="Boston"></img>
+				<img class="img-fluid rounded" src="assets/images/boston2018_01.jpg" alt="Boston"></img>
 				<button type="button" class="btn btn-lg" data-toggle="modal" data-target="#BostonModal">View more photos</button>
 				
-				<div class="modal fade" id="BostonModal" role="dialog">
+				<div class="modal fade" id="BostonModal" tabindex="-1" role="dialog">
 					
-					<div class="modal-dialog modal-lg">
+					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
 								<h2 class="modal-title">Boston 2018</h2>
@@ -144,37 +142,38 @@
 										<li data-target="#BostonCarousel" data-slide-to="3"></li>
 										<li data-target="#BostonCarousel" data-slide-to="4"></li>
 									</ol>
+									<!-- Content -->
 									<div class="carousel-inner">
-										<div class="item active">
-											<img class="img-rounded" src="assets/images/boston2018_01.jpg" alt="Boston"></img>
+										<div class="carousel-item active">
+											<img class="img-fluid rounded" src="assets/images/boston2018_01.jpg" alt="Boston"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/boston2018_02.jpg" alt="Boston"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/boston2018_02.jpg" alt="Boston"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/boston2018_03.jpg" alt="Boston"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/boston2018_03.jpg" alt="Boston"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/boston2018_04.jpg" alt="Boston"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/boston2018_04.jpg" alt="Boston"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/boston2018_05.jpg" alt="Boston"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/boston2018_05.jpg" alt="Boston"></img>
 										</div>
 										
 									</div>
 									<!-- Left and right controls -->
-									<a class="left carousel-control" href="#BostonCarousel" data-slide="prev">
-										<span class="icon glyphicon fa-angle-left"></span>
+									<a class="carousel-control-prev" href="#BostonCarousel" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 										<span class="sr-only">Previous</span>
 									</a>
-									<a class="right carousel-control" href="#BostonCarousel" data-slide="next">
-										<span class="icon glyphicon fa-angle-right"></span>
+									<a class="carousel-control-next" href="#BostonCarousel" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
 										<span class="sr-only">Next</span>
 									</a>
 								</div>
 							</div>
 							<div class="modal-footer">
-							  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							  <button type="button" class="btn" data-dismiss="modal">Close</button>
 							</div>
 						</div>
 					</div>
@@ -187,12 +186,12 @@
 			<!-- Knoxville -->
 			<div class="col-sm-6">
 				<h1>Knoxville 2018</h1>
-				<img class="img-rounded img-responsive" src="assets/images/knoxville2018_01.jpg" alt="Knoxville"></img>
+				<img class="img-fluid rounded" src="assets/images/knoxville2018_01.jpg" alt="Knoxville"></img>
 				<button type="button" class="btn btn-lg" data-toggle="modal" data-target="#KnoxvilleModal">View more photos</button>
 				
-				<div class="modal fade" id="KnoxvilleModal" role="dialog">
+				<div class="modal fade" id="KnoxvilleModal" tabindex="-1" role="dialog">
 					
-					<div class="modal-dialog modal-lg">
+					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
 								<h2 class="modal-title">Knoxville 2018</h2>
@@ -209,43 +208,44 @@
 										<li data-target="#KnoxvilleCarousel" data-slide-to="5"></li>
 										<li data-target="#KnoxvilleCarousel" data-slide-to="6"></li>
 									</ol>
+									<!-- Content -->
 									<div class="carousel-inner">
-										<div class="item active">
-											<img class="img-rounded" src="assets/images/knoxville2018_01.jpg" alt="Knoxville"></img>
+										<div class="carousel-item active">
+											<img class="img-fluid rounded" src="assets/images/knoxville2018_01.jpg" alt="Knoxville"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/knoxville2018_02.jpg" alt="Knoxville"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/knoxville2018_02.jpg" alt="Knoxville"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/knoxville2018_03.jpg" alt="Knoxville"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/knoxville2018_03.jpg" alt="Knoxville"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/knoxville2018_04.jpg" alt="Knoxville"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/knoxville2018_04.jpg" alt="Knoxville"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/knoxville2018_05.jpg" alt="Knoxville"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/knoxville2018_05.jpg" alt="Knoxville"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/knoxville2018_06.jpg" alt="Knoxville"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/knoxville2018_06.jpg" alt="Knoxville"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/knoxville2018_07.jpg" alt="Knoxville"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/knoxville2018_07.jpg" alt="Knoxville"></img>
 										</div>
 										
 									</div>
 									<!-- Left and right controls -->
-									<a class="left carousel-control" href="#KnoxvilleCarousel" data-slide="prev">
-										<span class="icon glyphicon fa-angle-left"></span>
+									<a class="carousel-control-prev" href="#KnoxvilleCarousel" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 										<span class="sr-only">Previous</span>
 									</a>
-									<a class="right carousel-control" href="#KnoxvilleCarousel" data-slide="next">
-										<span class="icon glyphicon fa-angle-right"></span>
+									<a class="carousel-control-next" href="#KnoxvilleCarousel" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
 										<span class="sr-only">Next</span>
 									</a>
 								</div>
 							</div>
 							<div class="modal-footer">
-							  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							  <button type="button" class="btn" data-dismiss="modal">Close</button>
 							</div>
 						</div>
 					</div>
@@ -256,12 +256,12 @@
 			<!-- Edinburgh -->
 			<div class="col-sm-6">
 				<h1>Edinburgh 2017</h1>
-				<img class="img-rounded img-responsive" src="assets/images/edinburgh2017_01.JPG" alt="Edinburgh"></img>
+				<img class="img-fluid rounded" src="assets/images/edinburgh2017_01.JPG" alt="Edinburgh"></img>
 				<button type="button" class="btn btn-lg" data-toggle="modal" data-target="#EdinburghModal">View more photos</button>
 				
-				<div class="modal fade" id="EdinburghModal" role="dialog">
+				<div class="modal fade" id="EdinburghModal" tabindex="-1" role="dialog">
 					
-					<div class="modal-dialog modal-lg">
+					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
 								<h2 class="modal-title">Edinburgh 2017</h2>
@@ -284,61 +284,62 @@
 										<li data-target="#EdinburghCarousel" data-slide-to="11"></li>
 										<li data-target="#EdinburghCarousel" data-slide-to="12"></li>
 									</ol>
+									<!-- Content -->
 									<div class="carousel-inner">
-										<div class="item active">
-											<img class="img-rounded" src="assets/images/edinburgh2017_01.JPG" alt="Edinburgh"></img>
+										<div class="carousel-item active">
+											<img class="img-fluid rounded" src="assets/images/edinburgh2017_01.JPG" alt="Edinburgh"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/edinburgh2017_02.JPG" alt="Edinburgh"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/edinburgh2017_02.JPG" alt="Edinburgh"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/edinburgh2017_03.JPG" alt="Edinburgh"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/edinburgh2017_03.JPG" alt="Edinburgh"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/edinburgh2017_04.JPG" alt="Edinburgh"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/edinburgh2017_04.JPG" alt="Edinburgh"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/edinburgh2017_05.JPG" alt="Edinburgh"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/edinburgh2017_05.JPG" alt="Edinburgh"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/edinburgh2017_06.JPG" alt="Edinburgh"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/edinburgh2017_06.JPG" alt="Edinburgh"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/edinburgh2017_07.JPG" alt="Edinburgh"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/edinburgh2017_07.JPG" alt="Edinburgh"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/edinburgh2017_08.JPG" alt="Edinburgh"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/edinburgh2017_08.JPG" alt="Edinburgh"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/edinburgh2017_09.JPG" alt="Edinburgh"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/edinburgh2017_09.JPG" alt="Edinburgh"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/edinburgh2017_10.JPG" alt="Edinburgh"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/edinburgh2017_10.JPG" alt="Edinburgh"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/edinburgh2017_11.JPG" alt="Edinburgh"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/edinburgh2017_11.JPG" alt="Edinburgh"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/edinburgh2017_12.JPG" alt="Edinburgh"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/edinburgh2017_12.JPG" alt="Edinburgh"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/edinburgh2017_13.JPG" alt="Edinburgh"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/edinburgh2017_13.JPG" alt="Edinburgh"></img>
 										</div>
 										
 									</div>
 									<!-- Left and right controls -->
-									<a class="left carousel-control" href="#EdinburghCarousel" data-slide="prev">
-										<span class="icon glyphicon fa-angle-left"></span>
+									<a class="carousel-control-prev" href="#EdinburghCarousel" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 										<span class="sr-only">Previous</span>
 									</a>
-									<a class="right carousel-control" href="#EdinburghCarousel" data-slide="next">
-										<span class="icon glyphicon fa-angle-right"></span>
+									<a class="carousel-control-next" href="#EdinburghCarousel" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
 										<span class="sr-only">Next</span>
 									</a>
 								</div>
 							</div>
 							<div class="modal-footer">
-							  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							  <button type="button" class="btn" data-dismiss="modal">Close</button>
 							</div>
 						</div>
 					</div>
@@ -351,12 +352,12 @@
 			<!-- London -->
 			<div class="col-sm-6">
 				<h1>London 2017</h1>
-				<img class="img-rounded img-responsive" src="assets/images/london2017_01.JPG" alt="London"></img>
+				<img class="img-fluid rounded" src="assets/images/london2017_01.JPG" alt="London"></img>
 				<button type="button" class="btn btn-lg" data-toggle="modal" data-target="#LondonModal">View more photos</button>
 				
-				<div class="modal fade" id="LondonModal" role="dialog">
+				<div class="modal fade" id="LondonModal" tabindex="-1" role="dialog">
 					
-					<div class="modal-dialog modal-lg">
+					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
 								<h2 class="modal-title">London 2017</h2>
@@ -373,42 +374,43 @@
 										<li data-target="#LondonCarousel" data-slide-to="5"></li>
 										<li data-target="#LondonCarousel" data-slide-to="6"></li>
 									</ol>
+									<!-- Content -->
 									<div class="carousel-inner">
-										<div class="item active">
-											<img class="img-rounded" src="assets/images/london2017_01.JPG" alt="London"></img>
+										<div class="carousel-item active">
+											<img class="img-fluid rounded" src="assets/images/london2017_01.JPG" alt="London"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/london2017_02.JPG" alt="London"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/london2017_02.JPG" alt="London"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/london2017_03.JPG" alt="London"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/london2017_03.JPG" alt="London"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/london2017_04.JPG" alt="London"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/london2017_04.JPG" alt="London"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/london2017_05.JPG" alt="London"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/london2017_05.JPG" alt="London"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/london2017_06.JPG" alt="London"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/london2017_06.JPG" alt="London"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/london2017_07.JPG" alt="London"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/london2017_07.JPG" alt="London"></img>
 										</div>
 									</div>
 									<!-- Left and right controls -->
-									<a class="left carousel-control" href="#LondonCarousel" data-slide="prev">
-										<span class="icon glyphicon fa-angle-left"></span>
+									<a class="carousel-control-prev" href="#LondonCarousel" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 										<span class="sr-only">Previous</span>
 									</a>
-									<a class="right carousel-control" href="#LondonCarousel" data-slide="next">
-										<span class="icon glyphicon fa-angle-right"></span>
+									<a class="carousel-control-next" href="#LondonCarousel" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
 										<span class="sr-only">Next</span>
 									</a>
 								</div>
 							</div>
 							<div class="modal-footer">
-							  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							  <button type="button" class="btn" data-dismiss="modal">Close</button>
 							</div>
 						</div>
 					</div>
@@ -419,12 +421,12 @@
 			<!-- Washington -->
 			<div class="col-sm-6">
 				<h1>Washington 2017</h1>
-				<img class="img-rounded img-responsive" src="assets/images/washington2017_01.jpg" alt="Edinburgh"></img>
+				<img class="img-fluid rounded" src="assets/images/washington2017_01.jpg" alt="Edinburgh"></img>
 				<button type="button" class="btn btn-lg" data-toggle="modal" data-target="#WashingtonModal">View more photos</button>
 				
-				<div class="modal fade" id="WashingtonModal" role="dialog">
+				<div class="modal fade" id="WashingtonModal" tabindex="-1" role="dialog">
 					
-					<div class="modal-dialog modal-lg">
+					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
 								<h2 class="modal-title">Washington 2017</h2>
@@ -443,48 +445,49 @@
 										<li data-target="#WashingtonCarousel" data-slide-to="7"></li>
 										<li data-target="#WashingtonCarousel" data-slide-to="8"></li>
 									</ol>
+									<!-- Content -->
 									<div class="carousel-inner">
-										<div class="item active">
-											<img class="img-rounded" src="assets/images/washington2017_01.jpg" alt="Washington"></img>
+										<div class="carousel-item active">
+											<img class="img-fluid rounded" src="assets/images/washington2017_01.jpg" alt="Washington"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/washington2017_02.jpg" alt="Washington"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/washington2017_02.jpg" alt="Washington"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/washington2017_03.jpg" alt="Washington"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/washington2017_03.jpg" alt="Washington"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/washington2017_04.jpg" alt="Washington"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/washington2017_04.jpg" alt="Washington"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/washington2017_05.jpg" alt="Washington"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/washington2017_05.jpg" alt="Washington"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/washington2017_06.jpg" alt="Washington"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/washington2017_06.jpg" alt="Washington"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/washington2017_07.jpg" alt="Washington"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/washington2017_07.jpg" alt="Washington"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/washington2017_08.jpg" alt="Washington"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/washington2017_08.jpg" alt="Washington"></img>
 										</div>
-										<div class="item">
-											<img class="img-rounded" src="assets/images/washington2017_09.jpg" alt="Washington"></img>
+										<div class="carousel-item">
+											<img class="img-fluid rounded" src="assets/images/washington2017_09.jpg" alt="Washington"></img>
 										</div>
 									</div>
 									<!-- Left and right controls -->
-									<a class="left carousel-control" href="#WashingtonCarousel" data-slide="prev">
-										<span class="icon glyphicon fa-angle-left"></span>
+									<a class="carousel-control-prev" href="#WashingtonCarousel" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 										<span class="sr-only">Previous</span>
 									</a>
-									<a class="right carousel-control" href="#WashingtonCarousel" data-slide="next">
-										<span class="icon glyphicon fa-angle-right"></span>
+									<a class="carousel-control-next" href="#WashingtonCarousel" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
 										<span class="sr-only">Next</span>
 									</a>
 								</div>
 							</div>
 							<div class="modal-footer">
-							  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							  <button type="button" class="btn" data-dismiss="modal">Close</button>
 							</div>
 						</div>
 					</div>
@@ -492,33 +495,29 @@
 			</div>
 		</div>
 		
-		<br>
-		
-		<div class="bg-break"></div>
-		
 		<div id="footer">
 			<div class="row">
 				<div class="col-sm-3">
-					<a href="https://twitter.com/EricJEarley" class="icon fa-twitter-square fa-3x" style="color:#eeeeee;" target="_blank"></a>
+					<a href="https://twitter.com/EricJEarley" style="color:#111111;" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
 				</div>
 				<div class="col-sm-3">
-					<a href="https://www.linkedin.com/in/ericjearley" class="icon fa-linkedin-square fa-3x" style="color:#eeeeee;" target="_blank"></a>
+					<a href="https://www.linkedin.com/in/ericjearley" style="color:#111111;" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
 				</div>
 				<div class="col-sm-3">
-					<a href="https://www.youtube.com/channel/UCiwT2dGNVAU-8R7c-UAEVVw" class="icon fa-youtube-square fa-3x" style="color:#eeeeee;" target="_blank"></a>
+					<a href="https://www.youtube.com/channel/UCiwT2dGNVAU-8R7c-UAEVVw" style="color:#111111;" target="_blank"><i class="fa fa-youtube-square fa-3x"></i></a>
 				</div>
 				<div class="col-sm-3">
-					<a href="mailto:ericearley@u.northwestern.com" class="icon fa-envelope fa-3x" style="color:#eeeeee;"></a>
+					<a href="mailto:ericearley@u.northwestern.com" style="color:#111111;"><i class="fa fa-envelope fa-3x"></i></a>
 				</div>
 			</div>
 		</div>
+		
 		<div class="col-sm-12">
-			<br>
-			<p>© 2018 Eric J. Earley | All Rights Reserved</p>
+			<p>© 2019 Eric J. Earley | All Rights Reserved</p>
 		</div>
-
-		<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="assets/js/main.js"></script>
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>

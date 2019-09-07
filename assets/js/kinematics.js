@@ -28,8 +28,8 @@ var R = 10;
 var C1 = new Circle(L1*Math.cos(T1),L1*Math.sin(T1),R);
 var C2 = new Circle(L1*Math.cos(T1)+L2*Math.cos(T1+T2),L1*Math.sin(T1)+L2*Math.sin(T1+T2),R);
 
-ctx.fillStyle = '#FFFFFF';
-ctx.strokeStyle = '#FFFFFF';
+ctx.fillStyle = '#000000';
+ctx.strokeStyle = '#000000';
 ctx.lineWidth = '10';
 
 /*setup coordinate system*/
