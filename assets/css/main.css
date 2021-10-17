@@ -30,8 +30,16 @@ body {
 	margin:0px auto 25px auto;
 }
 
+.navbar {
+	padding: .5rem 1rem;
+}
+
 .navbar-brand{
 	font-size: 36px;
+}
+
+.navbar-nav{
+	margin-left: auto;
 }
 
 
@@ -53,7 +61,7 @@ body {
 	color: #ffffff;
 }
 
-.dropdown-item {
+.dropdown-item, .dropdown-divider  {
 	color: #ffffff;
 }
 
@@ -74,12 +82,15 @@ body {
 }
 
 /*About page stuff*/
-.card-header {
+.accordion-header {
     cursor: pointer;
 }
 
-.card-header:hover, .card-header:active{
+.accordion-button:hover, .accordion-button:focus, .accordion-button:active, .accordion-button:not(.collapsed){
 	background-color: #CFD8DC;
+	border-color: #CFD8DC;
+	box-shadow: 0 0 0 .1rem rgba(207,216,220,.25);
+	color: #000000;
     cursor: pointer;
 }
 

@@ -2,8 +2,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="shortcut icon" href="assets/images/favicon.ico"/>
 		<title>About | Eric J. Earley</title>
@@ -13,32 +12,32 @@
 		<div id="header" class="text-light">
 			<nav class="navbar navbar-expand-lg">
 				<a class="navbar-brand" href="index.html">Eric J. Earley | About</a>
-				<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarcontents" aria-controls="navbarcontents" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContents" aria-controls="navbarcontents" aria-expanded="false" aria-label="Toggle navigation">
 					<!--<span class="navbar-toggler-icon"></span>-->
-					<span><i class="fa fa-bars fa-2x" style="color:#ffffff"></i></span>
+					<span><i class="fas fa-bars fa-2x" style="color:#ffffff"></i></span>
 				</button>
 			
-				<div class="collapse navbar-collapse" id="navbarcontents">
-					<ul class="navbar-nav ml-auto">
+				<div class="collapse navbar-collapse" id="navbarContents">
+					<ul class="navbar-nav mr-auto">
 						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 						<li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-							aria-haspopup="true" aria-expanded="false">Outreach<span class="caret"></span></a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="videos.html">Science Videos</a>
-								<a class="dropdown-item" href="writing.html">Science Writing</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="collabs.html">Collabs</a>
-								<a class="dropdown-item" href="public_talks.html">Public Talks</a>
-								<a class="dropdown-item" href="demos.html">Web Demos</a>
+							<a href="#" class="nav-link dropdown-toggle" id="outreachDropdown" data-bs-toggle="dropdown" role="button"
+							aria-haspopup="true" aria-expanded="false">Outreach</a>
+							<ul class="dropdown-menu" aria-labelledby="outreachDropdown">
+								<li><a class="dropdown-item" href="videos.html">Science Videos</a></li>
+								<li><a class="dropdown-item" href="writing.html">Science Writing</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="collabs.html">Collabs</a></li>
+								<li><a class="dropdown-item" href="public_talks.html">Public Talks</a></li>
+								<li><a class="dropdown-item" href="demos.html">Web Demos</a></li>
 								
-							</div>
+							</ul>
 						</li>
 						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-							aria-haspopup="true" aria-expanded="false">Hobbies<span class="caret"></span></a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a href="#" class="nav-link dropdown-toggle" id="hobbiesDropdown" data-bs-toggle="dropdown" role="button"
+							aria-haspopup="true" aria-expanded="false">Hobbies</a>
+							<div class="dropdown-menu" aria-labelledby="hobbiesDropdown">
 								<a class="dropdown-item" href="photography.html">Photography</a>
 								<a class="dropdown-item" href="quotes.html">Quotes</a>
 							</div>
@@ -49,7 +48,7 @@
 		</div>
 		
 		<div class="row">
-			<img class="img-fluid rounded" src="assets/images/header_about.png" alt="The header picture is of me at the Carrick-a-Rede bridge in Northern Ireland, with green cliffs in the background."></img>
+			<img class="img-fluid rounded" src="assets/images/header_about.png" alt="A black-and-white header photo of me wearing a suit. To the left are the logos of the Shirley Ryan AbilityLab, Northwestern University, and Center for Bionics and Pain Research."></img>
 			<h2 style="margin: auto;">Want to learn more about me? You're in the right place.</h2>
 		</div>
 		
@@ -59,36 +58,18 @@
 			</a>
 		</div>
 		
-		<!--<div class="row">
-			<div class="col-sm-4">
-				<button class="clickbutton" type="button" data-toggle="collapse" data-target="#Education" aria-expanded="true" aria-controls="Education">
-					Education
-				</button>
-			</div>
-			<div class="col-sm-4">
-				<button class="clickbutton" type="button" data-toggle="collapse" data-target="#Experience" aria-expanded="true" aria-controls="Experience">
-					Experience
-				</button>
-			</div>
-			<div class="col-sm-4">
-				<button class="clickbutton" type="button" data-toggle="collapse" data-target="#Leadership" aria-expanded="false" aria-controls="Leadership">
-					Leadership
-				</button>
-			</div>
-		</div>-->
-		
 		<br>
 		
 		<div class="accordion" id="aboutAccordion">
-			<div class="card">
-				<div class="card-header" id="headingEducation">
-					<h3 class="mb-0" data-toggle="collapse" data-target="#collapseEducation">
-						Education
-					</h3>
+			<div class="accordion-item">
+				<div class="accordion-header" id="headingEducation">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEducation">
+						<h3>Education</h3>
+					</button>
 				</div>
 
-				<div id="collapseEducation" class="collapse" aria-labelledby="headingEducation" data-parent="#aboutAccordion">
-					<div class="card-body">
+				<div id="collapseEducation" class="accordion-collapse collapse" aria-labelledby="headingEducation" data-bs-parent="#aboutAccordion">
+					<div class="accordion-body">
 						<div class="row" style="width:100%;">
 							<div class="col-sm-4">
 								<h4>PhD</h4>
@@ -167,15 +148,15 @@
 				</div>
 			 </div>
 			 
-			 <div class="card">
-				<div class="card-header" id="headingExperience">
-					<h3 class="mb-0" data-toggle="collapse" data-target="#collapseExperience">
-						Experience
-					</h3>
+			 <div class="accordion-item">
+				<div class="accordion-header" id="headingExperience">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExperience">
+						<h3>Experience</h3>
+					</button>
 				</div>
 
-				<div id="collapseExperience" class="collapse" aria-labelledby="headingExperience" data-parent="#aboutAccordion">
-					<div class="card-body">
+				<div id="collapseExperience" class="accordion-collapse collapse" aria-labelledby="headingExperience" data-bs-parent="#aboutAccordion">
+					<div class="accordion-body">
 						<div class="row" style="width:100%;">
 							<div class="col-sm-4">
 								<h4>Postdoctoral Research</h4>
@@ -186,7 +167,7 @@
 									<dd>Chalmers University of Technology</dd>
 									<br>
 									<dt>Description</dt>
-									<dd>Developing sensory feedback via RPNI stimulation for use with
+									<dd>Developing sensory feedback via <abbr title="Regenerative Peripheral Nerve Interface">RPNI</abbr> stimulation for use with
 									osseointegrated prosthetic limbs. Investigating longitudinal behavioral
 									and functional impacts of sensory feedback on prosthesis use at home,
 									and quantifying perceptions and psychophysical metrics of varying stimulation
@@ -246,7 +227,7 @@
 									<dd>ADA Technologies, Inc.</dd>
 									<br>
 									<dt>Description</dt>
-									<dd>Lead Engineer on a DoD SBIR Phase I project involving fire detection and targeted
+									<dd>Lead Engineer on a <abbr title="Department of Defense">DoD</abbr> <abbr title="Small Business Innovation Research">SBIR</abbr> Phase I project involving fire detection and targeted
 									fire suppression for use in an aircraft dry bay. Personal associated tasks included
 									patent research, prototype and control circuit design, fabrication, and quantitative testing.</dd>
 								</dl>
@@ -257,15 +238,15 @@
 				</div>
 			 </div>
 			 
-			 <div class="card">
-				<div class="card-header" id="headingLeadership">
-					<h3 class="mb-0" data-toggle="collapse" data-target="#collapseLeadership">
-						Leadership
-					</h3>
+			 <div class="accordion-item">
+				<div class="accordion-header" id="headingLeadership">
+					<div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLeadership">
+						<h3>Leadership</h3>
+					</div>
 				</div>
 
-				<div id="collapseLeadership" class="collapse" aria-labelledby="headingLeadership" data-parent="#aboutAccordion">
-					<div class="card-body">
+				<div id="collapseLeadership" class="accordion-collapse collapse" aria-labelledby="headingLeadership" data-bs-parent="#aboutAccordion">
+					<div class="accordion-body">
 						<div class="row" style="width:100%;">
 							<div class="col-sm-4">
 								<h4><abbr title="Communicating Science Conference">ComSciCon</abbr></h4>
@@ -280,8 +261,8 @@
 									<dd>Program Organizing Committee: 2017-2018</dd>
 									<br>
 									<dt>Description</dt>
-									<dd>Treasurer and advisory committee member, responsible for developing fiscal procedures and managing $100,000 budget for flagship and local conferences.
-									Program organizer for sixth annual national conference held summer 2018, responsible for selecting panelists and organizing non-panel workshops.</dd>
+									<dd>Treasurer and advisory committee member, responsible for developing fiscal procedures and managing $100,000 budget for flagship and local conferences.</dd>
+									<dd>Program organizer for sixth annual national conference held summer 2018, responsible for selecting panelists and organizing non-panel workshops.</dd>
 								</dl>
 							</div>
 							<div class="col-sm-4">
@@ -313,8 +294,8 @@
 									<dd>Workshop Coordinator: 2014-2017</dd>
 									<br>
 									<dt>Description</dt>
-									<dd>Work with the BME and McCormick staff to coordinate workshops for current graduate students to teach introductory through advanced MATLAB and SolidWorks skills.
-									To date, over 600 graduate students have signed up for these workshops.
+									<dd>Worked with the BME and McCormick staff to coordinate workshops for current graduate students to teach introductory through advanced MATLAB and SolidWorks skills.
+									Over 600 graduate students had signed up for these workshops.
 									Coordinated additional workshops on subjects including Adobe Illustrator, Immunohistochemistry, Western Blotting, Statistics, Machine Learning, and Python.</dd>
 								</dl>
 							</div>
@@ -335,7 +316,7 @@
 									<br>
 									<dt>Description</dt>
 									<dd>Oversaw periodic academic and social events, maintained communication with other officers, proposed and facilitated changes to annual BME research day
-								including pop talks (short 3-minute overviews of research using jargon-free language),and rebuilt website.</dd>
+									including pop talks (short 3-minute overviews of research using jargon-free language),and rebuilt website.</dd>
 								</dl>
 							</div>
 							<div class="col-sm-4">
@@ -366,10 +347,10 @@
 									<dd>High School Mentor: 2008-2011</dd>
 									<br>
 									<dt>Description</dt>
-									<dd>Managed $26,000 budget per year, developed and submitted annual budget allocation request.
+									<dd>Managed $26,000 annual budget, developed and submitted annual budget allocation request.
 									Co-initiated project to design, build and program self-balancing wheelchair.
 									Mentor for <abbr title="For Inspiration & Recognition of Science and Technology">FIRST</abbr> Robotics Competition.
-									Helped migrate from mentor-led to student-led project with critical oversight and guidance.</dd>
+									Helped migrate from mentor-led to student-led projects with critical oversight and guidance.</dd>
 								</dl>
 							</div>
 						</div>
@@ -420,25 +401,21 @@
 				</dl>
 			</div>
 			<div class="col-sm-6">
-				<a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/EricJEarley">Tweets by EricJEarley</a>
+				<a class="twitter-timeline" data-height="500" data-theme="light" href="https://twitter.com/EricJEarley">Tweets by EricJEarley</a>
 				<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>	
 		</div>
 		
+		<hr>
+
 		<div id="footer">
-			<div class="row">
-				<div class="col-sm-3">
-					<a href="https://twitter.com/EricJEarley" style="color:#111111;" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
-				</div>
-				<div class="col-sm-3">
-					<a href="https://www.linkedin.com/in/ericjearley" style="color:#111111;" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
-				</div>
-				<div class="col-sm-3">
-					<a href="https://www.youtube.com/channel/UCiwT2dGNVAU-8R7c-UAEVVw" style="color:#111111;" target="_blank"><i class="fa fa-youtube-square fa-3x"></i></a>
-				</div>
-				<div class="col-sm-3">
-					<a href="https://www.instagram.com/ericjearley/" style="color:#111111;" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
-				</div>
+			<div class="d-flex justify-content-around">
+				<div class="p-2"><a href="https://twitter.com/EricJEarley" style="color:#111111;" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a></div>
+				<div class="p-2"><a href="https://www.linkedin.com/in/ericjearley" style="color:#111111;" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></a></div>
+				<div class="p-2"><a href="https://www.youtube.com/channel/UCiwT2dGNVAU-8R7c-UAEVVw" style="color:#111111;" target="_blank"><i class="fab fa-youtube-square fa-3x"></i></a></div>
+				<div class="p-2"><a href="https://www.instagram.com/ericjearley/" style="color:#111111;" target="_blank"><i class="fab fa-instagram fa-3x"></i></a></div>
+				<div class="p-2"><a href="https://orcid.org/0000-0002-1203-7316" style="color:#111111;" target="_blank"><i class="fab fa-orcid fa-3x"></i></a></div>
+				<div class="p-2"><a href="https://scholar.google.com/citations?user=iOv_ss4AAAAJ&hl" style="color:#111111;" target="_blank"><i class="fab fa-google fa-3x"></i></a></div>
 			</div>
 		</div>
 		
@@ -446,8 +423,7 @@
 			<p>© 2021 Eric J. Earley | All Rights Reserved</p>
 		</div>
 		
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/704917d97b.js" crossorigin="anonymous"></script>
 	</body>
 </html>
