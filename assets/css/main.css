@@ -17,6 +17,19 @@ body {
 		margin-left: auto;
 		margin-right: auto;
 	}
+	
+	.modal-dialog {
+		width: 992px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.modal-dialog .row{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
 }
 
 #header {
@@ -41,7 +54,6 @@ body {
 .navbar-nav{
 	margin-left: auto;
 }
-
 
 .navbar-brand, .navbar-nav, .nav-item, .nav-link {
 	color: #ffffff;
@@ -121,6 +133,19 @@ dd{
 .modal.fade.show {
 	width: 100%;
 	padding: 10px;
+}
+
+.modal-title {
+	text-align: center;
+	width: 100%;
+}
+
+.modal-dialog {
+	max-width: 90%;
+}
+
+.modal-body p {
+	text-align: left;
 }
 
 .modal-dialog.modal-dialog-centered {
