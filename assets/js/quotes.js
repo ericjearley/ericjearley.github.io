@@ -50,7 +50,8 @@ var quotes = [
 	'Use the time of a total stranger in such a way that he or she will not feel the time was wasted',
 	'Every character should want something, even if it is only a glass of water',
 	'Write to please just one person. If you open a window and make love to the world, so to speak, your story will get pneumonia',
-	'There are many causes I would die for. There is not a single cause I would kill for'
+	'There are many causes I would die for. There is not a single cause I would kill for',
+	'If we wonder often, the gift of knowledge will come'
 ]
 
 var authors = [
@@ -103,7 +104,8 @@ var authors = [
 	'Kurt Vonnegut',
 	'Kurt Vonnegut',
 	'Kurt Vonnegut',
-	'Mohandas Gandhi'
+	'Mohandas Gandhi',
+	'Arapaho Proverb'
 ]
 
 
