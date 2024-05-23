@@ -51,7 +51,8 @@ var quotes = [
 	'Every character should want something, even if it is only a glass of water',
 	'Write to please just one person. If you open a window and make love to the world, so to speak, your story will get pneumonia',
 	'There are many causes I would die for. There is not a single cause I would kill for',
-	'If we wonder often, the gift of knowledge will come'
+	'If we wonder often, the gift of knowledge will come',
+	'We are living in the memories of our future selves'
 ]
 
 var authors = [
@@ -105,7 +106,8 @@ var authors = [
 	'Kurt Vonnegut',
 	'Kurt Vonnegut',
 	'Mohandas Gandhi',
-	'Arapaho Proverb'
+	'Arapaho Proverb',
+	'Reggie Watts'
 ]
 
 
